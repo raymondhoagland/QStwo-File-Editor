@@ -1,0 +1,12 @@
+1) The Master Scripts folder should be directlty on the C Drive (C:\Master Scripts)
+
+2) Path destination for created script files is:
+C:\Program Files\IBM\Client Access\Emulator\Private
+-If this path does not exist or the user does not have full control over the folder, the program will not work.
+--To test whether you have full control of the folder, create a blank text document using notepad and attempting to drag/drop it into the destination folder.
+---If prompted that you need to provide administrator approval to place the file, you do not have full control.
+----To gain full control of the folder, go to the folder and right click.  Under properties, go to the security tab and find Users.  Go to edit and click on full control and then ok.
+This should grant you full control of the folder and allow the program to write there.
+ 
+3) Java is necessary to run this program.  If the program quickly flashes and exits on startup, this indicates that Java is not installed on the computer.
+In order to install Java to the comptuer, go to http://java.com/en/download/ and follow the instructions to install java.
